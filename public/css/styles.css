@@ -42,6 +42,18 @@ form{
     margin: 15px 0;
 }
 
+.radio-options{
+    margin: 30px 0;
+}
+
+.radio-options h5{
+    margin-bottom: 10px;
+}
+
+.radio-options input{
+    margin-left: 10px;
+}
+
 .form-control {
     display: block;
     background-color: #1F2729;
@@ -55,16 +67,28 @@ form{
     border-bottom: 1px solid #fff;
 }
 
-.radio-inline + input:checked{
-    background-color: #81D079;
-}
-
 /* buttons */
 .btn {
-    padding: .5rem 1rem;
+    padding: 15px;
     background-color: #a4dd9f;
+    margin: 20px 0;
+    border-radius: 0;
 }
 
 .btn-info {
     color: #fff;
+}
+
+/* Login and Signup Text*/
+.intro-msg{
+    padding: 50px;
+}
+
+/* Links */
+p a{
+    color: #81D079;
+}
+
+p a:hover{
+    color: #444444;
 }
