@@ -1,3 +1,7 @@
+*{
+    outline: none;
+}
+
 /* navbar*/
 .navbar-inverse .navbar-nav .nav-link {
     color: #DBDBDB;
@@ -23,49 +27,68 @@
     background-color:#1F2729 !important; 
 }
 
-/* forms */
-form {
-    /* display: block; */
-    /* margin-top: 0em; */
+.form {
+    height: 100vh;
     background-color: #1F2729;
     color: #DBDBDB;
+    padding: 50px;
+}
+
+form{
+    margin: 10px;
+}
+
+.input{
+    margin: 15px 0;
+}
+
+.radio-options{
+    margin: 30px 0;
+}
+
+.radio-options h5{
+    margin-bottom: 10px;
+}
+
+.radio-options input{
+    margin-left: 10px;
 }
 
 .form-control {
     display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    /* color: white; */
     background-color: #1F2729;
-    background-image: none;
+    border: none;
     border-bottom: 1px solid #81D079;
-    border-left: none;
-    border-right: none;
-    border-top: none;
     border-radius: 0;
+}
+
+.form-control:focus{
+    background-color: #1F2729;
+    border-bottom: 1px solid #fff;
 }
 
 /* buttons */
 .btn {
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1.25;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid #81D079;
-    padding: .5rem 1rem;
-    font-size: 1rem;
-    border-radius: .25rem;
-    transition: all .2s ease-in-out;
+    padding: 15px;
+    background-color: #a4dd9f;
+    margin: 20px 0;
+    border-radius: 0;
 }
 
 .btn-info {
     color: #fff;
-    background-color: #81D079;
-    border-color: #81D079;
+}
+
+/* Login and Signup Text*/
+.intro-msg{
+    padding: 50px;
+}
+
+/* Links */
+p a{
+    color: #81D079;
+}
+
+p a:hover{
+    color: #444444;
 }
