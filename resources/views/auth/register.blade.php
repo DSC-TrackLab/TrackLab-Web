@@ -14,7 +14,7 @@
         <!--Form box-->
         <div class="align-self-center form col-md-6">
 
-            <p class="text-center">#LOGO HERE</p>
+            <p class="text-center"><small>#LOGO HERE</small></p>
 
             <h3 class='text-center'>Sign up</h3>
 

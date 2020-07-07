@@ -15,7 +15,7 @@
         <div class="form align-self-center col-md-6">
 
             <!--Logo goes here-->
-            <p class="text-center">#LOGO HERE</p>
+            <p class='text-center'><small>#LOGO HERE</small></p>
 
             <h3 class='text-center'>Sign in</h3>
 
