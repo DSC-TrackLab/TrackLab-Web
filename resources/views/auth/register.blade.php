@@ -46,6 +46,13 @@
                     @enderror
                 </div>
 
+                <!--Confirm Password Field-->
+                <div class="input row-md-6">
+                    <label for="password-confirm">Confirm Password</label>
+                    <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                    
+                </div>
+
                 <!-- Email Input -->
                 <div class="input row-md-6">
                     <label for="email">Email</label>
