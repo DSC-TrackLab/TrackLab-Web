@@ -1,7 +1,3 @@
-*{
-    outline: none;
-}
-
 /* navbar*/
 .navbar-inverse .navbar-nav .nav-link {
     color: #DBDBDB;
@@ -22,24 +18,16 @@
     border-radius: 4px;
 }
 
-/* jumbotron */
-.jumbotron {
-    background-color:#1F2729 !important; 
-}
-
+/*Form Styles*/
 .form {
-    height: 100vh;
+    height: 100%;
     background-color: #1F2729;
     color: #DBDBDB;
     padding: 50px;
 }
 
-form{
-    margin: 10px;
-}
-
 .input{
-    margin: 15px 0;
+    margin: 20px 0;
 }
 
 .radio-options{
@@ -67,7 +55,6 @@ form{
     border-bottom: 1px solid #fff;
 }
 
-/* buttons */
 .btn {
     padding: 15px;
     background-color: #a4dd9f;
@@ -75,20 +62,20 @@ form{
     border-radius: 0;
 }
 
-.btn-info {
-    color: #fff;
-}
-
-/* Login and Signup Text*/
 .intro-msg{
     padding: 50px;
 }
 
-/* Links */
-p a{
+.form p a{
     color: #81D079;
 }
 
-p a:hover{
+.form p a:hover{
     color: #444444;
 }
+
+.form h3{
+    margin: 40px
+}
+
+/*End Form Styles*/
