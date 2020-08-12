@@ -15,7 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/driver/register', 'DriverController@registerDriver');
+Route::get('/register/driver', 'VehicleController@index')->name('vehicle.index');
+Route::post('/register/driver', 'VehicleController@create')->name('vehicle.create');
 
 Auth::routes();
 
