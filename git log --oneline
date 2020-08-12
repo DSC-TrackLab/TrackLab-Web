@@ -1,0 +1,50 @@
+[33mcommit d93edb927ff144d9916ce00524500e8550629ff6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: SabeloX <sabelomtw@gmail.com>
+Date:   Tue Jul 7 22:38:35 2020 +0200
+
+    Touch up of Register and Login Views
+
+[33mcommit b1d2b2e4466bb86fc699e5b89ad41d841498edf9[m
+Author: SabeloX <sabelomtw@gmail.com>
+Date:   Sat Jun 27 22:19:30 2020 +0200
+
+    Sign in and Sign up features added
+
+[33mcommit d77daee066f3e1624cf86a66e25a180126254e02[m
+Author: Sabelo <sabelomtw@gmail.com>
+Date:   Sat Jun 27 18:10:49 2020 +0200
+
+    Incomplete new feature on the signup page
+
+[33mcommit 801d3de020b97e54418d2e11120f667d4d2177c1[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 47905ed 0842999
+Author: SabeloX <52076408+SabeloX@users.noreply.github.com>
+Date:   Sat Jun 27 00:49:50 2020 +0200
+
+    Merge pull request #1 from DSC-TrackLab/feature/styling
+    
+    Feature/styling
+
+[33mcommit 08429998aa49227d1c173b768e4e7173156d210f[m
+Author: Bright <bright.dube@outlook.com>
+Date:   Thu Jun 25 18:19:03 2020 +0200
+
+    Added css file
+
+[33mcommit c5b5efbd318b2196b16d265bc708f66d750c7f28[m
+Author: Bright <bright.dube@outlook.com>
+Date:   Wed Jun 24 18:17:11 2020 +0200
+
+    bootstrap customisation first commit
+
+[33mcommit 47905ed66050d170e108c7742e637e687d00b42c[m
+Author: Jonathan de Kock <jonathan@wapp.co.za>
+Date:   Sun Jun 14 18:37:32 2020 +0200
+
+    Updated ReadMe
+
+[33mcommit 6416cd21e372a2fbd0a4f8b2bd3da40a8472880a[m
+Author: Jonathan de Kock <jonathan@wapp.co.za>
+Date:   Sun Jun 14 18:27:22 2020 +0200
+
+    Initial Commit
