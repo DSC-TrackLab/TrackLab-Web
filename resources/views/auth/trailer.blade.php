@@ -9,7 +9,7 @@
 
 		<div class="form align-self-center col-md-6">
 			<p class='text-center'><small>#LOGO HERE</small></p>
-			<h3 class='text-center'>Driver Sign-Up</h3>
+			<h3 class='text-center'>Trailer Details</h3>
 			<form method="POST" action="{{ route('vehicle.create') }}">
 				@csrf
 				<h5>Please select vehicle type:</h5>
@@ -77,7 +77,7 @@
 
                     <!--Next Button-->
                     <div class="form-group col text-center">
-						<a href={{route('auth.trailer')}}><button type="button" class="btn btn-primary">Next</button></a>
+						<button type="button" onclick={{route('auth.trailer')}} class="btn btn-primary">Next</button>
                     </div>
 				</div>
 			</form>
