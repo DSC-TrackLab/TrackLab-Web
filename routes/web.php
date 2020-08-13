@@ -22,6 +22,10 @@ Route::get('/trailer', function(){
     return view('auth.trailer');
 })->name('auth.trailer');
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
+/*
+  Route::get('/register', function () {
+    })->middleware('driver');*/
