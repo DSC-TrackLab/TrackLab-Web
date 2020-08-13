@@ -15,72 +15,70 @@
 				<h5>Please select vehicle type:</h5>
 				<div class='container'>
 					<div class='row'>
+                        <div class='form-group col'>
+                            <div class="form-check form-check">
+                                <input class="form-check-input" type="radio" name="options" id="driver" value="option1">
+                                <label class="form-check-label" for="driver">Motobike</label>
+                            </div>
+        
+                            <div class="form-check form-check">
+                                <input class="form-check-input" type="radio" name="options" id="customer" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">SUV</label>
+                            </div>
+        
+                            <div class="form-check form-check">
+                              <input class="form-check-input" type="radio" name="options" id="guest" value="option3">
+                              <label class="form-check-label" for="guest">Step Van</label>
+                            </div>
+        
+                            <div class="form-check form-check">
+                              <input class="form-check-input" type="radio" name="options" id="guest" value="option3">
+                              <label class="form-check-label" for="guest">Flatbed Truck</label>
+                            </div>
+        
+                            <div class="form-check form-check">
+                              <input class="form-check-input" type="radio" name="options" id="guest" value="option3">
+                              <label class="form-check-label" for="guest">Straight Truck</label>
+                            </div>
+                        </div>
 						<div class='form-group col'>
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="driver" value="option1">
-								<label class="form-check-label" for="driver">Motobike</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="customer" value="option2">
-								<label class="form-check-label" for="inlineRadio2">SUV</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="guest" value="option3">
-								<label class="form-check-label" for="guest">Step Van</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="guest" value="option3">
-								<label class="form-check-label" for="guest">Flatbed Truck</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="guest" value="option3">
-								<label class="form-check-label" for="guest">Straight Truck</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="guest" value="option3">
-								<label class="form-check-label" for="guest">Step Van</label>
-							</div>
-						</div>
-						<div class='form-group col'>
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="driver" value="option1">
-								<label class="form-check-label" for="driver">Compact</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="customer" value="option2">
-								<label class="form-check-label" for="inlineRadio2">Van</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="guest" value="option3">
-								<label class="form-check-label" for="guest">Step Van</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="guest" value="option3">
-								<label class="form-check-label" for="guest">Flatbed Truck</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="guest" value="option3">
-								<label class="form-check-label" for="guest">Straight Truck</label>
-							</div>
-
-							<div class="form-check form-check">
-								<input class="form-check-input" type="radio" name="options" id="guest" value="option3">
-								<label class="form-check-label" for="guest">Step Van</label>
-							</div>
-						</div>
-						<div class='form-group col'>
-							<button class="btn btn-primary">Submit</button>
+                            <div class="form-check form-check">
+                                <input class="form-check-input" type="radio" name="options" id="driver" value="option1">
+                                <label class="form-check-label" for="driver">Compact</label>
+                            </div>
+        
+                            <div class="form-check form-check">
+                                <input class="form-check-input" type="radio" name="options" id="customer" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Van</label>
+                            </div>
+        
+                            <div class="form-check form-check">
+                              <input class="form-check-input" type="radio" name="options" id="guest" value="option3">
+                              <label class="form-check-label" for="guest">Pick-up</label>
+                            </div>
+        
+                            <div class="form-check form-check">
+                              <input class="form-check-input" type="radio" name="options" id="guest" value="option3">
+                              <label class="form-check-label" for="guest">Utility Truck</label>
+                            </div>
+        
+                            <div class="form-check form-check">
+                              <input class="form-check-input" type="radio" name="options" id="guest" value="option3">
+                              <label class="form-check-label" for="guest">Car Carrier</label>
+                            </div>
 						</div>
 					</div>
+                    <div class="text-center form-check">
+                        <input type="checkbox" class="form-check-input" id="trailer">
+                        <label class="form-check-label" for="trailer">Trailer?</label>
+                    </div>
+
+                    <p class="text-center">Vehicle Capacity: <i>#DropMenuToBeAdded</i></p>
+
+                    <!--Next Button-->
+                    <div class="form-group col text-center">
+						<a href={{route('auth.trailer')}}><button type="button" class="btn btn-primary">Next</button></a>
+                    </div>
 				</div>
 			</form>
 		</div>

@@ -18,6 +18,10 @@ Route::get('/', function () {
 Route::get('/register/driver', 'VehicleController@index')->name('vehicle.index');
 Route::post('/register/driver', 'VehicleController@create')->name('vehicle.create');
 
+Route::get('/trailer', function(){
+    return view('auth.trailer');
+})->name('auth.trailer');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
