@@ -55,7 +55,7 @@
     border-bottom: 1px solid #fff;
 }
 
-.btn {
+.form .btn {
     padding: 15px;
     background-color: #a4dd9f;
     margin: 20px 0;
@@ -83,3 +83,23 @@ h5 {
 }
 
 /*End Form Styles*/
+
+/*Profile Styles*/
+.profile {
+    background-color: #1F2729;
+    color: #fff;
+    padding: 30px;
+}
+
+.stars {
+    margin: 10px;
+}
+
+.stars svg:hover {
+    background-color: #fff;
+}
+
+hr{
+    background-color: #81D079;
+}
+/*End Profile Styles*/
