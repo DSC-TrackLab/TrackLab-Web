@@ -22,6 +22,7 @@ Route::get('/trailer', function(){
     return view('auth.trailer');
 })->name('auth.trailer');
 
+
 Route::get('/profile/client', function(){
     $users = [
         0 => [
@@ -60,6 +61,12 @@ Route::get('/profile/driver', function(){
     return view('driver_profile', ['users' => $users]);
 });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Auth::routes(['verify' => true]);
+
+
+
+Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
+/*
+  Route::get('/register', function () {
+    })->middleware('driver');*/
