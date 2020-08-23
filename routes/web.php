@@ -60,6 +60,14 @@ Route::get('/profile/driver', function(){
     return view('driver_profile', ['users' => $users]);
 });
 
+Route::get('update/client', function(){
+    return view('update_client');
+});
+
+Route::get('update/driver', function(){
+    return view('update_driver');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
