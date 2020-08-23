@@ -22,6 +22,7 @@ Route::get('/trailer', function(){
     return view('auth.trailer');
 })->name('auth.trailer');
 
+
 Route::get('/profile/client', function(){
     $users = [
         0 => [
@@ -60,6 +61,7 @@ Route::get('/profile/driver', function(){
     return view('driver_profile', ['users' => $users]);
 });
 
+<<<<<<< HEAD
 Route::get('update/client', function(){
     return view('update_client');
 });
@@ -69,5 +71,14 @@ Route::get('update/driver', function(){
 });
 
 Auth::routes();
+=======
+>>>>>>> 61d7afb39116cd234fd95ac4b5431ac806b6362b
 
-Route::get('/home', 'HomeController@index')->name('home');
+Auth::routes(['verify' => true]);
+
+
+
+Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
+/*
+  Route::get('/register', function () {
+    })->middleware('driver');*/
