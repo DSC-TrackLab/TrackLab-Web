@@ -61,7 +61,6 @@ Route::get('/profile/driver', function(){
     return view('driver_profile', ['users' => $users]);
 });
 
-<<<<<<< HEAD
 Route::get('update/client', function(){
     return view('update_client');
 });
@@ -71,8 +70,6 @@ Route::get('update/driver', function(){
 });
 
 Auth::routes();
-=======
->>>>>>> 61d7afb39116cd234fd95ac4b5431ac806b6362b
 
 Auth::routes(['verify' => true]);
 
